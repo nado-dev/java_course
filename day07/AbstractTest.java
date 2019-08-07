@@ -11,12 +11,12 @@
 
 */
 
-class Employee
+abstract  class Employee
 {
-	private String name;
-	private String id;
-	private double pay;
-
+	//private String name;
+	//private String id;
+	//private double pay;
+//
 	Employee(String name,String id,double pay)
 	{
 		this.name = name;
@@ -32,7 +32,7 @@ class Employee
 
 class Manager extends Employee
 {
-	private int bonus;
+	//private int bonus;
 	Manager(String name,String id,double pay,int bonus)
 	{
 		super(name,id,pay);
@@ -56,13 +56,3 @@ class Pro extends Employee
 	}
 }
 
-
-
-
-class  
-{
-	public static void main(String[] args) 
-	{
-		System.out.println("Hello World!");
-	}
-}
